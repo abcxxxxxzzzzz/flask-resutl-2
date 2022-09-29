@@ -1,0 +1,31 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+autopep8 = "*"
+
+[packages]
+flask = "*"
+flask-sqlalchemy = "*"
+passlib = "*"
+flask-restful = "*"
+flask-migrate = "*"
+flask-script = "*"
+pymysql = "*"
+python-dotenv = "*"
+watchdog = "*"
+flask-marshmallow = "*"
+marshmallow-sqlalchemy = "*"
+pyopenssl = "*"
+python-dateutil = "*"
+flask-cors = "*"
+pyotp = "*"
+qrcode = "*"
+image = "*"
+redis = "*"
+requests = "*"
+
+[requires]
+python_version = "3.6"
